@@ -1,0 +1,133 @@
+body {
+    font-family: sanFransisco;
+}
+
+@font-face {
+    font-family: sanFransisco;
+    src: url(../fonts/SF-Pro-Display-Light.ttf);
+}
+
+.navbar {
+    height: 44px;
+}
+
+.bgDark {
+    background-color: #222;
+    opacity: .9;
+}
+
+.navToggle {
+    height: 19px;
+    margin-left: -10px;
+}
+
+.navToggle:hover {
+    transition: .2s;
+    opacity: .8;
+}
+
+.nav-item {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+.nav-item:hover {
+    transition: .2s;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.headerIcon {
+    height: 19px;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+
+    .headerIconMin,
+    .bagIconMin {
+        display: none;
+    }
+}
+
+.headerIconMin {
+    height: 21px;
+    margin-top: -23px;
+}
+
+.headerIconMin:hover {
+    transition: .2s;
+    opacity: .8;
+}
+
+.bagIconMin {
+    height: 22px;
+    margin-top: -30px;
+}
+
+.bagIconMin:hover {
+    transition: .2s;
+    opacity: .8;
+}
+
+.headerIcon:hover {
+    transition: .2s;
+    filter: opacity(50%);
+}
+
+.bgGrey {
+    background-color: #fafafa;
+}
+
+.img-fluid {
+    margin-bottom: -64px;
+}
+
+.bgPink {
+    background-color: #FA3455;
+}
+
+.bgBlack {
+    background-color: #000;
+}
+
+.fontCustom {
+    font-family: arial;
+}
+
+.footerText {
+    font-size: 13px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.col-2 {
+    margin-right: -50px;
+}
+
+@media (max-width: 768px) {
+
+    .jumbotron .container p,
+    .jumbotron .container a {
+        font-size: 18px;
+    }
+
+    .img-fluid {
+        margin-bottom: -32px;
+    }
+
+    .marginTopLeft {
+        margin: 16px 0 0 16px;
+    }
+
+    .paddingBottom {
+        padding-bottom: 30px;
+    }
+}

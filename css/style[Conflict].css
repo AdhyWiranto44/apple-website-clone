@@ -1,0 +1,40 @@
+body {
+    font-family: sanFransisco;
+}
+
+@font-face {
+    font-family: sanFransisco;
+    src: url(../fonts/SF-Pro-Display-Light.ttf);
+}
+
+.navbar {
+    height: 44px;
+    background-color: #000;
+    opacity: .8;
+}
+
+.navBorder {
+    border: 5px solid white;
+}
+
+.nav-item {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+.nav-item:hover {
+    transition: .2s;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.headerIcon {
+    height: 19px;
+    margin-bottom: 8px;
+}
+
+.headerIcon:hover {
+    transition: .2s;
+    filter: opacity(50%);
+}
